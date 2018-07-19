@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".detail.DetailActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imv_poster"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/poster_movie" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="@string/text_overview"/>
+    <TextView
+        android:id="@+id/txv_overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        tools:text="An Elf is left behind by Santa to help rescue the Harper family from a lousy Christmas. The Elf and the family get more than they bargained for, as the kids help the Elf discover his special powers and true identity as a budding superhero."/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Release date"/>
+        <TextView
+            android:id="@+id/txv_tanggal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:text=": 2018-09-12"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Language"/>
+        <TextView
+            android:id="@+id/txv_language"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:text=": en"/>
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

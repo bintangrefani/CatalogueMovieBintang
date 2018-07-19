@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll_movie"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imv_poster"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/poster_movie"
+        android:scaleType="fitXY"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txv_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="@string/text_dummy_judul"/>
+        <TextView
+            android:id="@+id/txv_overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_dummy_overview_movie"/>
+        <TextView
+            android:id="@+id/txv_tanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_dummy_tanggal"/>
+
+    </LinearLayout>
+
+</LinearLayout>

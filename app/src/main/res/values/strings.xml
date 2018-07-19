@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Catalogue Movie Bintang</string>
+    <string name="search_hint">Masukkan Judul Film</string>
+    <string name="btn_text_search">Cari</string>
+    <string name="poster_movie">Poster Movie</string>
+    <string name="text_dummy_overview_movie">overview movie</string>
+    <string name="text_dummy_judul">Judul</string>
+    <string name="text_dummy_tanggal">2018-07-20</string>
+    <string name="text_overview">Overview</string>
+</resources>
